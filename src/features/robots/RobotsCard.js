@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ id, name, email }) => {
+const RobotsCard = ({ id, name, email }) => {
   return (
     <div className='tc bg-orange hover-bg-light-red dib br3 pa3 ma2 bw2 shadow-5 pointer'>
       <img
@@ -15,4 +15,4 @@ const Card = ({ id, name, email }) => {
   );
 };
 
-export default Card;
+export default RobotsCard;
